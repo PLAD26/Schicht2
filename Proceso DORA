@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="UdRYPDu2gxFIB4ytnsla">
-    <mxGraphModel dx="970" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1172" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -327,6 +327,231 @@
         </mxCell>
         <mxCell id="gGmTdAKQsjNL_MxZchV7-114" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ACKNOWLEDGE&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="2535" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="90" width="680" x="3350" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Client&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Ohne IP)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="3424" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DHCP-Server 1" vertex="1">
+          <mxGeometry height="50" width="110" x="3764" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DHCP-Server 2" vertex="1">
+          <mxGeometry height="50" width="110" x="3915" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-128" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gGmTdAKQsjNL_MxZchV7-125" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3480" y="700" as="sourcePoint" />
+            <mxPoint x="3820" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-129" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3819.5" y="700" as="sourcePoint" />
+            <mxPoint x="3819.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-130" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3969.58" y="700" as="sourcePoint" />
+            <mxPoint x="3969.58" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-131" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;curved=1;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3480" y="140" as="sourcePoint" />
+            <mxPoint x="3820" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-132" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3480" y="160" as="sourcePoint" />
+            <mxPoint x="3970" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-133" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Broadcast&lt;/b&gt;: „Gibt es einen DHCP-Server in diesem Netzwerk?“" vertex="1">
+          <mxGeometry height="30" width="220" x="3530" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-134" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DISCOVER&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="3380" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-151" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="260" width="680" x="4180" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-152" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="90" width="680" x="4180" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Client&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Ohne IP)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="4254" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-154" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DHCP-Server 1&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(gewählt)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="4594" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-155" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DHCP-Server 2&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(nicht gewählt)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="4745" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-156" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gGmTdAKQsjNL_MxZchV7-153" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4310" y="700" as="sourcePoint" />
+            <mxPoint x="4650" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-157" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4649.5" y="700" as="sourcePoint" />
+            <mxPoint x="4649.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-158" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4799.58" y="700" as="sourcePoint" />
+            <mxPoint x="4799.58" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-159" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;curved=1;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4310" y="140" as="sourcePoint" />
+            <mxPoint x="4650" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-160" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4310" y="160" as="sourcePoint" />
+            <mxPoint x="4800" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-161" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Broadcast&lt;/b&gt;: „Gibt es einen DHCP-Server in diesem Netzwerk?“" vertex="1">
+          <mxGeometry height="30" width="220" x="4360" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-162" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DISCOVER&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="4210" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-163" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4650" y="240" as="sourcePoint" />
+            <mxPoint x="4310" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-164" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Server 1 bietet Folgendes an:" vertex="1">
+          <mxGeometry height="30" width="220" x="4360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-165" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;IP&lt;/b&gt;:&amp;nbsp;192.168.1.25&lt;div&gt;&lt;b&gt;Subnetzmaske&lt;/b&gt;: 255.255.255.0&lt;/div&gt;&lt;div&gt;&lt;b&gt;Standard-Gateway:&lt;/b&gt; 192.168.1.1&lt;/div&gt;&lt;div&gt;&lt;b&gt;DNS-Server:&lt;/b&gt; 192.168.1.2&lt;/div&gt;&lt;div&gt;&lt;b&gt;Lease Time:&lt;/b&gt; 24 Stunden&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="4360" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-166" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;OFFER&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="4210" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-169" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4800" y="360" as="sourcePoint" />
+            <mxPoint x="4310" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-170" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Server 2 bietet Folgendes an:" vertex="1">
+          <mxGeometry height="30" width="220" x="4360" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-171" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;IP&lt;/b&gt;:&amp;nbsp;192.168.1.100&lt;div&gt;&lt;b&gt;Subnetzmaske&lt;/b&gt;: 255.255.255.0&lt;/div&gt;&lt;div&gt;&lt;b&gt;Standard-Gateway&lt;/b&gt;: 192.168.1.1&lt;/div&gt;&lt;div&gt;&lt;b&gt;DNS-Server&lt;/b&gt;: 192.168.1.2&lt;/div&gt;&lt;div&gt;&lt;b&gt;Lease Time&lt;/b&gt;: 12 Stunden&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="4360" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-178" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="90" width="680" x="5040" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-179" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="260" width="680" x="5040" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-180" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="90" width="680" x="5040" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-181" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Client&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(IP: 192.168.1.25)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="5114" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-182" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DHCP-Server 1&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(gewählt)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="5454" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-183" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DHCP-Server 2&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(nicht gewählt)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="5605" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-184" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gGmTdAKQsjNL_MxZchV7-181" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5170" y="700" as="sourcePoint" />
+            <mxPoint x="5510" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-185" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5509.5" y="700" as="sourcePoint" />
+            <mxPoint x="5509.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-186" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5659.58" y="700" as="sourcePoint" />
+            <mxPoint x="5659.58" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-187" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;curved=1;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5170" y="140" as="sourcePoint" />
+            <mxPoint x="5510" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-188" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5170" y="160" as="sourcePoint" />
+            <mxPoint x="5660" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-189" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Broadcast&lt;/b&gt;: „Gibt es einen DHCP-Server in diesem Netzwerk?“" vertex="1">
+          <mxGeometry height="30" width="220" x="5220" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-190" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DISCOVER&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="5070" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-191" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5510" y="240" as="sourcePoint" />
+            <mxPoint x="5170" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-192" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Server 1 bietet Folgendes an:" vertex="1">
+          <mxGeometry height="30" width="220" x="5220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-193" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;IP&lt;/b&gt;:&amp;nbsp;192.168.1.25&lt;div&gt;&lt;b&gt;Subnetzmaske&lt;/b&gt;: 255.255.255.0&lt;/div&gt;&lt;div&gt;&lt;b&gt;Standard-Gateway:&lt;/b&gt; 192.168.1.1&lt;/div&gt;&lt;div&gt;&lt;b&gt;DNS-Server:&lt;/b&gt; 192.168.1.2&lt;/div&gt;&lt;div&gt;&lt;b&gt;Lease Time:&lt;/b&gt; 24 Stunden&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="5220" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-194" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;OFFER&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="5070" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-195" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5170" y="514" as="sourcePoint" />
+            <mxPoint x="5510" y="514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-196" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5170" y="534" as="sourcePoint" />
+            <mxPoint x="5660" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-197" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5660" y="360" as="sourcePoint" />
+            <mxPoint x="5170" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-198" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Server 2 bietet Folgendes an:" vertex="1">
+          <mxGeometry height="30" width="220" x="5220" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-199" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;IP&lt;/b&gt;:&amp;nbsp;192.168.1.100&lt;div&gt;&lt;b&gt;Subnetzmaske&lt;/b&gt;: 255.255.255.0&lt;/div&gt;&lt;div&gt;&lt;b&gt;Standard-Gateway&lt;/b&gt;: 192.168.1.1&lt;/div&gt;&lt;div&gt;&lt;b&gt;DNS-Server&lt;/b&gt;: 192.168.1.2&lt;/div&gt;&lt;div&gt;&lt;b&gt;Lease Time&lt;/b&gt;: 12 Stunden&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="5220" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-200" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Broadcast&lt;/b&gt;: „Ich akzeptiere die Informationen von Server 1“" vertex="1">
+          <mxGeometry height="30" width="220" x="5224" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-201" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;REQUEST&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="5070" y="508" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
