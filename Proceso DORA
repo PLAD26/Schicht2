@@ -61,6 +61,33 @@
         <mxCell id="gGmTdAKQsjNL_MxZchV7-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IP:&amp;nbsp;192.168.1.25&lt;div&gt;Subnetzmaske: 255.255.255.0&lt;/div&gt;&lt;div&gt;Standard-Gateway: 192.168.1.1&lt;/div&gt;&lt;div&gt;DNS-Server: 192.168.1.2&lt;/div&gt;&lt;div&gt;Lease Time: 24 Stunden&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="220" x="190" y="270" as="geometry" />
         </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;OFFER&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="490" as="sourcePoint" />
+            <mxPoint x="480" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="510" as="sourcePoint" />
+            <mxPoint x="630" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;endSize=9;startSize=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="360" as="sourcePoint" />
+            <mxPoint x="140" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Unicast: Servidor 2 ofrece lo siguiente&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="220" x="190" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IP:&amp;nbsp;192.168.1.100&lt;div&gt;Subnetzmaske: 255.255.255.0&lt;/div&gt;&lt;div&gt;Standard-Gateway: 192.168.1.1&lt;/div&gt;&lt;div&gt;DNS-Server: 192.168.1.2&lt;/div&gt;&lt;div&gt;Lease Time: 24 Stunden&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="190" y="400" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
