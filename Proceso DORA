@@ -58,7 +58,7 @@
         <mxCell id="gGmTdAKQsjNL_MxZchV7-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Unicast: Servidor 1 ofrece lo siguiente&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="220" x="190" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="gGmTdAKQsjNL_MxZchV7-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IP:&amp;nbsp;192.168.1.25&lt;div&gt;Subnetzmaske: 255.255.255.0&lt;/div&gt;&lt;div&gt;Standard-Gateway: 192.168.1.1&lt;/div&gt;&lt;div&gt;DNS-Server&lt;/div&gt;" vertex="1">
+        <mxCell id="gGmTdAKQsjNL_MxZchV7-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IP:&amp;nbsp;192.168.1.25&lt;div&gt;Subnetzmaske: 255.255.255.0&lt;/div&gt;&lt;div&gt;Standard-Gateway: 192.168.1.1&lt;/div&gt;&lt;div&gt;DNS-Server: 192.168.1.2&lt;/div&gt;&lt;div&gt;Lease Time: 24 Stunden&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="220" x="190" y="270" as="geometry" />
         </mxCell>
       </root>
