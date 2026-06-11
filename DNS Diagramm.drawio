@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="MIxLioLs22-T0WrDI3D8">
-    <mxGraphModel dx="803" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="970" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,8 +31,8 @@
             <mxPoint x="534" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kp2z6UUhsxGEWxrTFEi2-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;User Computer&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;www.google.com&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="110.5" x="40" y="500" as="geometry" />
+        <mxCell id="Kp2z6UUhsxGEWxrTFEi2-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;User Computer&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="110.5" x="40.75" y="490" as="geometry" />
         </mxCell>
         <mxCell id="Kp2z6UUhsxGEWxrTFEi2-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Rekursive Resolver&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="110.5" x="288.75" y="500" as="geometry" />
@@ -147,6 +147,18 @@
         </mxCell>
         <mxCell id="Kp2z6UUhsxGEWxrTFEi2-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=45;" value="www.google.com ?" vertex="1">
           <mxGeometry height="30" width="130" x="434" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Kp2z6UUhsxGEWxrTFEi2-97" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-45;" value=".com = IP:1.1.1.1" vertex="1">
+          <mxGeometry height="30" width="130" x="449.9985424949238" y="338.9985424949238" as="geometry" />
+        </mxCell>
+        <mxCell id="Kp2z6UUhsxGEWxrTFEi2-99" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" value="google.com = IP:2.2.2.2" vertex="1">
+          <mxGeometry height="30" width="140" x="445" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Kp2z6UUhsxGEWxrTFEi2-102" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=45;" value="www.google.com = IP:142.250.185.78" vertex="1">
+          <mxGeometry height="30" width="120" x="374" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="Kp2z6UUhsxGEWxrTFEi2-103" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" value="www.google.com = IP:142.250.185.78" vertex="1">
+          <mxGeometry height="30" width="120" x="176.50300858899104" y="480.00300858899107" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
